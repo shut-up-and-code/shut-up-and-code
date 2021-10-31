@@ -2,6 +2,7 @@ baseURL = "https://shut-up-and-code.github.io"
 languageCode = "en-us"
 title = "shup up and code"
 theme = "PaperMod"
+disqusShortname = "shut-up-and-code"
 
 [params]
 description = "Software development guides by an introvert"
