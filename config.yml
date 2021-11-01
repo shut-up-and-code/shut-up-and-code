@@ -1,0 +1,52 @@
+---
+baseURL: "/"
+languageCode: "en-us"
+title: "shup up and code"
+theme: "PaperMod"
+paginate: 10
+disqusShortname: "shut-up-and-code"
+enableEmoji: true
+defaultTheme: "light"
+enableGitInfo: true
+author: "John F"
+
+PygmentsCodeFences: false
+
+params:
+  logo:
+    logoMark: ">"
+    logoText: "shutup and code"
+  dateform: "Jan 2, 2006"
+  dateformShort: "Jan 2"
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04"
+  showToc: true
+  tocOpen: true
+  homeSubtitle: "Guides, tips and tricks for all things software. No human interaction required 🍺"
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  comments: true
+
+  editPost:
+      URL: "https://github.com/shut-up-and-code/shut-up-and-code.github.io/content"
+      Text: "Suggest Changes"
+      appendFilePath: true # to append file path to Edit link
+
+menu:
+  main:
+    - identifier: guides
+      name: "Guides"
+      url: "/guides/"
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: false
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+
+taxonomies:
+  category: "guide"
+  tag: "tags"
