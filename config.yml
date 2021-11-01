@@ -9,6 +9,7 @@ enableEmoji: true
 defaultTheme: "light"
 enableGitInfo: true
 author: "John F"
+comments: true
 
 PygmentsCodeFences: false
 
@@ -25,7 +26,6 @@ params:
   homeSubtitle: "Guides, tips and tricks for all things software. No human interaction required 🍺"
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
-  comments: true
 
   editPost:
       URL: "https://github.com/shut-up-and-code/shut-up-and-code.github.io/content"
