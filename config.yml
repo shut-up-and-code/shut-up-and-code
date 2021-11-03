@@ -4,7 +4,7 @@ languageCode: "en-us"
 title: "shup up and code"
 theme: "PaperMod"
 paginate: 10
-disqusShortname: "shut-up-and-code"
+disqusShortname: shut-up-and-code
 enableEmoji: true
 defaultTheme: "light"
 enableGitInfo: true
@@ -14,6 +14,7 @@ comments: true
 PygmentsCodeFences: false
 
 params:
+  comments: true
   logo:
     logoMark: ">"
     logoText: "shutup and code"
@@ -28,7 +29,7 @@ params:
   ShowPostNavLinks: true
 
   editPost:
-      URL: "https://github.com/shut-up-and-code/shut-up-and-code.github.io/content"
+      URL: "https://github.com/shut-up-and-code/shut-up-and-code.github.io/tree/master/content"
       Text: "Suggest Changes"
       appendFilePath: true # to append file path to Edit link
 
